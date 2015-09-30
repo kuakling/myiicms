@@ -1,0 +1,40 @@
+{
+    "name": "kuakling/myiicms",
+    "version": "dev-master",
+    "description": "Easy CMS based on Yii2 Framework - Development package",
+    "keywords": ["myiicms"],
+    "homepage": "http://monstersoft.com",
+    "type": "yii2-extension",
+    "license": "GNU GPL V3",
+    "minimum-stability": "dev",
+    "support": {
+        "wiki": "http://monstersoft.com/myiicms/docs",
+        "source": "https://github.com/kuakling/myiicms.git",
+        "issues": "https://github.com/kuakling/myiicms/issues"
+    },
+    "authors": [
+        {
+            "name": "Surakit Choodet",
+            "email": "kuakling@gmail.com",
+            "role" : "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*",
+        "kuakling/yii2-materialize": "dev-master",
+        "kuakling/yii2-smartmenus": "dev-master",
+        "kuakling/yii2-keditor": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "kuakling\\myiicms\\": "/"
+        }
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}
