@@ -22,7 +22,7 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "yii2-materializecss": "dev-master"
+        "bower-asset/materialize": "@stable"
     },
     "autoload": {
         "psr-4": {
