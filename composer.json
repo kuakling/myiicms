@@ -22,7 +22,7 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "kuakling/yii2-materialize": "dev-master"
+        "kuakling/yii2-materialize": "*"
     },
     "autoload": {
         "psr-4": {
