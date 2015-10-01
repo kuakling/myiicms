@@ -22,7 +22,7 @@
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "2amigos/yii2-selectize-widget": "~1.0"
+        "kuakling/yii2-materializecss": "dev-master"
     },
     "autoload": {
         "psr-4": {
