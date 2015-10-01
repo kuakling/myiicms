@@ -6,7 +6,6 @@
     "homepage": "http://monstersoft.com",
     "type": "yii2-extension",
     "license": "GNU GPL V3",
-    "minimum-stability": "dev",
     "support": {
         "wiki": "http://monstersoft.com/myiicms/docs",
         "source": "https://github.com/kuakling/myiicms.git",
@@ -19,9 +18,14 @@
             "role" : "Developer"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "kuakling/yii2-materialize": "dev-master",
+        "kuakling/yii2-smartmenus": "dev-master",
+        "kuakling/yii2-keditor": "dev-master"
     },
     "autoload": {
         "psr-4": {
